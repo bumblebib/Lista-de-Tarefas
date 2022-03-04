@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+<!-- CSS -->
+<link rel="stylesheet" href="css/default.css" type="text/css">
+<!-- jquery --->
+<script src="js/jquery.min.js"></script>
+<!-- javascript -->
+<script src="js/default.js"></script>
+<!-- Font awesome -->
+<script src="https://kit.fontawesome.com/f8d70a9ac7.js" crossorigin="anonymous"></script>
+<title>To-Do List</title>
+</head>
+
+<body>
+	<header>
+		<div><i class="fa-solid fa-bars"></i><i class="fa-solid fa-calendar-days"></i></div>
+		<h2>Hoje</h2>
+		<h4 class="dia">Data</h4>
+	</header>
+
+	<section>
+			<div class="tarefas">
+				<ul class="todo-list">
+					
+				</ul>
+			</div>
+	</section>
+	<section>
+		<form class="form-tarefa" action="">
+			<label class="nova-tarefa" for="novo-todo">Nova Tarefa:
+			<input type="text" id="novo-todo">
+			</label>
+			<input class="adicionar" type="button" value="adicionar"  onClick="novaTarefa()">
+		</form>
+	</section>
+	<section>
+		<div class="btn">+</div>
+	</section>
+</body>
+</html>
